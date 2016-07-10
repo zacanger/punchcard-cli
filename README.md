@@ -3,4 +3,8 @@ this is just the tiniest little executable wrapper ever around
 
 `npm i -g punchcard-cli`
 
-`punchcard-cli foo`
+`punchcard-cli foo` or
+
+`punchcard bar` or
+
+`punch sup`
