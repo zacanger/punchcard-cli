@@ -1,7 +1,7 @@
 {
   "name": "punchcard-cli",
   "description": "just a simple wrapper around punchcard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
@@ -10,7 +10,11 @@
   "license": "WTFPL",
   "main": "index.js",
   "preferGlobal": true,
-  "bin": "index.js",
+  "bin": {
+    "punchcard-cli": "index.js",
+    "punch": "index.js",
+    "punchcard": "index.js"
+  },
   "scripts": {
     "start": "node index",
     "test": ""
