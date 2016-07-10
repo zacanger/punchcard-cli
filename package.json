@@ -1,0 +1,32 @@
+{
+  "name": "punchcard-cli",
+  "description": "just a simple wrapper around punchcard",
+  "version": "0.1.0",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "http://zacanger.com"
+  },
+  "license": "WTFPL",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": ""
+  },
+  "homepage": "https://github.com/zacanger/punchcard-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/punchcard-cli.git"
+  },
+  "bugs": "https://github.com/zacanger/punchcard-cli/issues",
+  "keywords": [
+    "",
+    "punchcard"
+  ],
+  "dependencies": {
+    "punchcard": "0.0.0"
+  },
+  "devDependencies": {}
+}
