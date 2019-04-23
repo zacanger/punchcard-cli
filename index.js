@@ -1,15 +1,16 @@
 #!/usr/bin/env node
 
-const
-  punch = require('punchcard')
-, arg   = process.argv[2]
+const punch = require('punchcard')
+const arg = process.argv[2]
 
-const help = () =>
+const help = () => {
   console.log(`please supply an argument to convert
 usage:
     punchcard-cli yo
     punchcard foo
-    punch 'hi there'`)
+    punch 'hi there'`
+  )
+}
 
 if (!arg || arg === '--help' || arg === '-h') {
   return help()
