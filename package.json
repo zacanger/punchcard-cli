@@ -1,7 +1,7 @@
 {
   "name": "punchcard-cli",
   "description": "just a simple wrapper around punchcard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
